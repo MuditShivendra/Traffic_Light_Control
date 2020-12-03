@@ -1,10 +1,8 @@
-<img src="docs/img/square_logo.png" align="right" width="25%"/>
+# Multiagent Reinforcement Learning for Traffic Light Simulation
 
-[![Build Status](https://travis-ci.com/flow-project/flow.svg?branch=master)](https://travis-ci.com/flow-project/flow)
-[![Docs](https://readthedocs.org/projects/flow/badge)](http://flow.readthedocs.org/en/latest/)
-[![Coverage Status](https://coveralls.io/repos/github/flow-project/flow/badge.svg?branch=master)](https://coveralls.io/github/flow-project/flow?branch=master)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/flow-project/flow/binder)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/flow-project/flow/blob/master/LICENSE.md)
+- Follow the Flow documentation to setup Flow, SUMO and RLlib in the system. More tutorials and examples are available in the main repository of Flow.
+- Activate virtual environment for flow and run train.py and simulate.py scripts in /Training as "python simulate.py EXP_CONFIG" or "python train.py EXP_CONFIG"
+- Pre-trained models are present in /ray_results. Use "tensorboard --logdir ~/ray_results" to view the training statistics.
 
 # Flow
 
