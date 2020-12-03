@@ -4,6 +4,9 @@
 - Activate virtual environment for flow and run train.py and simulate.py scripts in /Training as "python simulate.py EXP_CONFIG" or "python train.py EXP_CONFIG"
 - Pre-trained models are present in /ray_results. Use "tensorboard --logdir ~/ray_results" to view the training statistics.
 
+Key Papers and Datasets are available on https://traffic-signal-control.github.io/
+
+
 # Flow
 
 [Flow](https://flow-project.github.io/) is a computational framework for deep RL and control experiments for traffic microsimulation.
